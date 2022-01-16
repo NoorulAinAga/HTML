@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qasim science school</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="s" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              background-color:gray;
+          color:white;
+        }
+        .left{
+    
+       display: inline-block;
+    position: absolute;
+    left: 20px;
+    top:20px;
+        }
+        .mid{
+           
+            display: block;
+            width: 45%;
+            margin:20px auto;
+            
+        }.right{
+          
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+          
+        }
+        .navbar li a{
+            text-decoration: none;
+           
+            padding: 34px 23px;
+            color:white;
+        }
+        .navbar li a:hover , .navbar li a.active{
+            text-decoration: underline;
+            color: red;
+        }
+        .left img{
+            width: 0px;
+        }
+        .left div{
+            text-align: center;
+        }
+        .btn{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 5px 20px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+            
+        }
+        .btn:hover{
+            background-color:gray;
+        }
+        .container{
+            
+            padding: 30px 13px;
+            margin: 50px 100px;
+            width: 50%;
+            display: block;
+            border-radius: 5px;
+        }
+        .form-group input{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: block;
+            width: 200px;
+            padding: 4px;
+            margin: 4px auto;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+        .container h1{
+            text-align: center;
+            padding: 10px 20px;
+            margin: 50px 0px;
+        }
+        .container button{
+            display: block;
+            width: 30%;
+            margin:10px auto;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            
+            <div>
+
+                Qasim science school
+            </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" >home</a></li>
+                <li><a href="#">Detail</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+    <button class="btn">Call me</button>
+    <button class="btn">E-mail me</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>if you want to take admission fill this form</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="enter your mobile number">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="enter your adderes">
+            </div>
+            <button class="btn">Submit now</button>
+        </form>
+    </div>
+</body>
+</html>
