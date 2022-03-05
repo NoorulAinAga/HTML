@@ -1,0 +1,17 @@
+table{
+    background-color: rgb(13, 226, 59);
+    border: solid black;
+}
+.classn{
+    background-color: rgb(48, 142, 224);
+}
+.class1,.class3{
+    background-color: rgb(32, 219, 219);
+}
+.calss2{
+    background-color: rgb(10, 46, 34);
+}
+a{
+    background-color: rgb(173, 157, 189);
+    font-weight: bold;
+}
